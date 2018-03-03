@@ -1,4 +1,10 @@
 #wpadminbar #wp-admin-bar-newtify-center * {
   box-sizing: border-box;
   line-height: 1.8em;
+  color: #32373c;
+
+  strong,
+  b {
+    font-weight: 500;
+  }
 }

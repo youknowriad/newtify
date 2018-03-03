@@ -63,7 +63,7 @@ function newtify_center_admin_bar_init( $wp_admin_bar ){
 	// add a group node with a class "first-toolbar-group"
 	$args = array(
 		'id'    => 'newtify-center',
-		'title' => 'Newtify',
+		'title' => '',
 		'parent' => 'top-secondary',
 	);
 
