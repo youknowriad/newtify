@@ -1,0 +1,25 @@
+#wpadminbar .newtify-center-toggle {
+  height: 32px;
+  padding: 5px;
+  z-index: z-index(".newtify-center-toggle");
+
+  svg {
+    fill: rgba(240, 245, 250, 0.6);
+  }
+
+  &:hover,
+  &:focus {
+    svg {
+      fill: #00b9eb;
+    }
+    background: #32373c;
+    box-shadow: none;
+  }
+
+  &.is-toggled {
+    background: #fff;
+    svg {
+      fill: #32373c;
+    }
+  }
+}

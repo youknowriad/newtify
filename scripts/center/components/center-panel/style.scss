@@ -1,0 +1,9 @@
+#wpadminbar .newtify-center-panel {
+  position: fixed;
+  top: 32px;
+  right: 0;
+  bottom: 0;
+  width: 350px;
+  background: #fff;
+  z-index: z-index(".newtify-center-panel");
+}

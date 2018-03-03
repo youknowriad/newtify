@@ -1,0 +1,29 @@
+#wpadminbar .newtify-notification {
+  display: grid;
+  grid-template-areas:
+    "icon content"
+    "icon time";
+  grid-template-columns: auto 1fr;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  color: #32373c;
+}
+
+.newtify-notification__content {
+  grid-area: content;
+}
+
+.newtify-notification__time {
+  grid-area: time;
+  color: #999;
+  font-style: italic;
+}
+
+#wpadminbar .newtify-notification__icon {
+  grid-area: icon;
+  padding: 0 10px;
+
+  svg {
+    width: 40px;
+  }
+}

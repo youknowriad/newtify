@@ -1,0 +1,14 @@
+// #wpadminbar { z-index: 99999 }
+$z-layers: (
+  ".newtify-center__layover": -1,
+  ".newtify-center-panel": 1,
+  ".newtify-center-toggle": 1
+);
+
+@function z-index($key) {
+  @if map-has-key($z-layers, $key) {
+    @return map-get($z-layers, $key);
+  }
+
+  @error "Error: Specified z-index `#{$key}` does not exist in the mapping";
+}
